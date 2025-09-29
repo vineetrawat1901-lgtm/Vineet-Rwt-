@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Amazon Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #232f3e;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background-color: #37475a;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+        }
+        footer {
+            background-color: #232f3e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to My Amazon Store</h1>
+        <p><em>Shop your favorite products online!</em></p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#electronics">Electronics</a>
+        <a href="#books">Books</a>
+        <a href="#fashion">Fashion</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <!-- Products Section -->
+    <section class="products" id="electronics">
+        <div class="product">
+            <h2><strong>Smartphone</strong></h2>
+            <img src="https://via.placeholder.com/200" alt="Smartphone">
+            <p>Price: <b>$299</b></p>
+            <audio controls>
+                <source src="sample-audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p><a href="https://www.amazon.com/" target="_blank">Buy Now</a></p>
+        </div>
+
+        <div class="product">
+            <h2><strong>Laptop</strong></h2>
+            <img src="https://via.placeholder.com/200" alt="Laptop">
+            <p>Price: <b>$799</b></p>
+            <video width="200" controls>
+                <source src="sample-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p><a href="https://www.amazon.com/" target="_blank">Buy Now</a></p>
+        </div>
+    </section>
+
+    <!-- Books Section -->
+    <section class="products" id="books">
+        <div class="product">
+            <h2><strong>Book: HTML Basics</strong></h2>
+            <img src="https://via.placeholder.com/200" alt="Book">
+            <p>Price: <b>$19</b></p>
+            <ul>
+                <li>Introduction to HTML</li>
+                <li>Text Formatting</li>
+                <li>Images & Links</li>
+            </ul>
+            <p><a href="https://www.amazon.com/" target="_blank">Buy Now</a></p>
+        </div>
+
+        <div class="product">
+            <h2><strong>Book: CSS Mastery</strong></h2>
+            <img src="https://via.placeholder.com/200" alt="Book">
+            <p>Price: <b>$25</b></p>
+            <ol>
+                <li>Selectors & Properties</li>
+                <li>Layouts & Positioning</li>
+                <li>Advanced Styling</li>
+            </ol>
+            <p><a href="https://www.amazon.com/" target="_blank">Buy Now</a></p>
+        </div>
+    </section>
+
+    <!-- Fashion Section -->
+    <section class="products" id="fashion">
+        <div class="product">
+            <h2><strong>T-shirt</strong></h2>
+            <img src="https://via.placeholder.com/200" alt="T-shirt">
+            <p>Price: <b>$15</b></p>
+            <p><a href="https://www.amazon.com/" target="_blank">Buy Now</a></p>
+        </div>
+
+        <div class="product">
+            <h2><strong>Jeans</strong></h2>
+            <img src="https://via.placeholder.com/200" alt="Jeans">
+            <p>Price: <b>$40</b></p>
+            <p><a href="https://www.amazon.com/" target="_blank">Buy Now</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>Contact us: <a href="mailto:info@mystore.com" style="color:yellow;">info@mystore.com</a></p>
+        <p>&copy; 2025 My Amazon Store</p>
+    </footer>
+
+</body>
+</html>
