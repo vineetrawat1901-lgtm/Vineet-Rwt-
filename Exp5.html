@@ -1,65 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1 align="center">Student Registration Form</h1>
     <hr>
     <form action="/submit.php">
-    <div>
-        <label for="name">Full Name:</label>
-        <input id="name" type="text" placeholder="Enter Your full name" required>
-    </div>
-    <br>
-    <div>
-        <label for="Email">Email:</label>
-        <input id="Email" type="email" placeholder="Enter valid email address" required>
-    </div>
-    <br>
-    <div>
-        <label for="pass">Password:</label>
-        <input id="pass" type="password" placeholder="Enter password" required>
-    </div>
-    <br>
-    <div>Gender:
-        <input id="male" type="radio" name="gender" value="male" required >
-        <label for="male">Male</label>
-        <input id="female"type="radio" name="gender" value="female" required>
-        <label for="female">Female</label>
-        <input id="other" type="radio" name="gender" value="other" required>
-        <label for="other">Other</label>
-    </div>
-    <br>
-    <div>
-        <label for="course">Course:</label>
-        <select id="course" required>
-            <option value=""disabled -- Select Course -- >-- Select Course --</option>
-            <option value="btech">B.Tech</option>
-            <option value="MCA">MCA</option>
-            <option value="bca">BCA</option>
-        </select>
-    </div>
-    <br>
-    <div>
-        <label for="contact">Contact No:</label>
-        <input id="contact" type="tel" placeholder="Enter phone number">
-    </div>
-    <br>
-    <div>
-        <label for="address">Address:</label>
         <div>
-        <textarea id="address" placeholder="Enter your Address" rows="4"></textarea>
+            <label for="name">Full Name:</label>
+            <input id="name" type="text" placeholder="Enter Your full name" required>
         </div>
-    </div>
-    <div>
-        <button type="submit">Register</button>
-        <button type="submit">Clear</button>
-    </div>
+        <br>
+        <div>
+            <label for="Email">Email:</label>
+            <input id="Email" type="email" placeholder="Enter valid email address" required>
+        </div>
+        <br>
+        <div>
+            <label for="pass">Password:</label>
+            <input id="pass" type="password" placeholder="Enter password" required>
+        </div>
+        <br>
+        <div>Gender:
+            <input id="male" type="radio" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input id="female" type="radio" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <input id="other" type="radio" name="gender" value="other" required>
+            <label for="other">Other</label>
+        </div>
+        <br>
+        <div>
+            <label for="course">Course:</label>
+            <select id="course" required>
+                <option value="" disabled -- Select Course -->-- Select Course --</option>
+                <option value="btech">B.Tech</option>
+                <option value="MCA">MCA</option>
+                <option value="bca">BCA</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="contact">Contact No:</label>
+            <input id="contact" type="tel" placeholder="Enter phone number">
+        </div>
+        <br>
+        <div>
+            <label for="address">Address:</label>
+            <div>
+                <textarea id="address" placeholder="Enter your Address" rows="4"></textarea>
+            </div>
+        </div>
+        <br>
+        <div>
+            <button type="submit">Register</button>
+            <button type="submit">Clear</button>
+        </div>
     </form>
     <hr>
     <p align="center">&copy 2025 Student Registration Portal</p>
 </body>
+
 </html>
