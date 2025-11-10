@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy</title>
+
+    <style>
+      
+        body {
+            background-color: #f4f9f4cc;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+        }
+
+        .header {
+            width: 100%;
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            margin-top: 30px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 10px;
+        }
+
+       
+        .card img {
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        
+        .card h3 {
+            margin: 10px 0 5px;
+        }
+
+        .card p {
+            color: #555;
+            font-size: 14px;
+            margin: 5px 0 10px;
+        }
+
+        .price {
+            color: green;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .old-price {
+            color: #999;
+            text-decoration: line-through;
+            font-size: 14px;
+            margin-left: 5px;
+        }
+
+        .card button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">ShopEasy</div>
+    <div class="card">
+        <img src="https://colorfulstandard.com/cdn/shop/files/CS1001_Male_ClassicOrganicTee-KellyGreen_2_70e6e610-d8ae-4334-9e73-91586e41cf68.jpg?v=1745495388&width=3000" alt="Green T-shirt" heignt="180" width="150">
+        <h3>Classic Cotton T-Shirt</h3>
+        <p>Soft, breathable cotton. Regular fit. Available in multiple colors.</p>
+        <div>
+            <span class="price">₹799</span>
+            <span class="old-price">₹1,199</span>
+        </div>
+        <button>Add to Cart</button>
+    </div>
+
+</body>
+</html>
