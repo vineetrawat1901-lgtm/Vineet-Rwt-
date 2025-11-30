@@ -8,13 +8,11 @@
 <style>
 body{
     background-color: rgb(89, 69, 188);
-   padding:100px;
-   height:200px;
-
+   padding:60px;
+   justify-items: center;
 }
 .box{
     color:white;
-    
 }
 .box1{
     background-color:orangered;
@@ -24,6 +22,8 @@ body{
     color:white;
     width:500px;
     height:390px;
+    text-align: center;
+    justify-items: center;
 }
 .box2{
     background-color:aqua;
@@ -32,15 +32,16 @@ body{
     margin:10px;
     height:300px;
     width:400px;
-
+    justify-items: center;
 }
 .box3{
-    background-color:yellow;
+    background-color:rgb(210, 210, 34);
     border:2px;
     padding:20px;
     margin:10px;
     height:200px;
     width:300px;
+    justify-items: center;
 }
 .box4{
     background-color:green;
@@ -56,21 +57,12 @@ body{
 </style>
 
 <body>
-    <div class="box" align="center">
-        <h1>CSS BOX MODEL</h1>
-    <div class="box1">
-        <span><b>Margin</b></span>
-        <div class="box2">
-            <span><b>Border</b></span>
-            <div class="box3">
-                <span><b>Padding</b></span>
-                <div class="box4">
-                    <span><b>Content</b></span>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
+  <div class="box"><h1>CSS BOX MODEL</h1></div>
+  <div class="box1">Margin
+  <div class="box2">Border
+    <div class="box3">Padding<div class="box4">Content</div>  
+  </div>
+</div>
 </body>
 </html>
 
